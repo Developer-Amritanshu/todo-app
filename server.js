@@ -8,7 +8,7 @@ const mongoose = require('mongoose')
 const app = express()
 
 //connecting mongoose
-mongoose.connect('mongodb+srv://admin-amritanshu:amritanshu@cluster0.b5dqg.mongodb.net/itemDB', {useNewUrlParser: true, useUnifiedTopology: true});
+
 
 //middleware
 app.use(bodyParser.urlencoded({extended:true}))
